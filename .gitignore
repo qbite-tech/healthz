@@ -1,0 +1,8 @@
+/healthz
+/config.json
+/config.local.json
+/.env
+*.log
+/data/
+.ssh/**
+healthz-known-hosts
