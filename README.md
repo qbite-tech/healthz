@@ -442,6 +442,10 @@ make build
 ./healthz -config config.json
 ```
 
+## Sponsor
+
+healthz is sponsored by [qbite.tech](https://qbite.tech).
+
 ## Contributing, security, and license
 
 Bug reports and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Please report security vulnerabilities privately as described in [SECURITY.md](SECURITY.md), not in public issues.
