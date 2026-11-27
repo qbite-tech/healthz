@@ -64,13 +64,13 @@ Check the server architecture from the workstation:
 ssh your-admin@your-server uname -m
 ```
 
-Use `amd64` for `x86_64` and `arm64` for `aarch64`. Download that release from the [releases page](https://github.com/runeQ/healthz/releases) and verify it against `SHA256SUMS` before installing it:
+Use `amd64` for `x86_64` and `arm64` for `aarch64`. Download that release from the [releases page](https://github.com/qbite-tech/healthz/releases) and verify it against `SHA256SUMS` before installing it:
 
 ```sh
 version=v0.4.0
 arch=amd64
 name="healthz_${version}_linux_${arch}"
-base="https://github.com/runeQ/healthz/releases/download/$version"
+base="https://github.com/qbite-tech/healthz/releases/download/$version"
 curl -fsSLO "$base/$name.tar.gz"
 curl -fsSLO "$base/SHA256SUMS"
 grep -F "./$name.tar.gz" SHA256SUMS | sha256sum --check --strict -

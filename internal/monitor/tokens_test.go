@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 func TestAPITokenLifecycle(t *testing.T) {

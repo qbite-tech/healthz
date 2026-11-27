@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 func TestHTTPCheckerHealthyResponse(t *testing.T) {

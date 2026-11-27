@@ -4,12 +4,12 @@
 
 ## Install
 
-Download a prebuilt binary for Linux or macOS (`amd64` or `arm64`) from the [releases page](https://github.com/runeQ/healthz/releases). Each archive contains the `healthz` binary, this README, and `config.example.json`, and `SHA256SUMS` lists their checksums. The binaries are statically linked and need nothing else installed.
+Download a prebuilt binary for Linux or macOS (`amd64` or `arm64`) from the [releases page](https://github.com/qbite-tech/healthz/releases). Each archive contains the `healthz` binary, this README, and `config.example.json`, and `SHA256SUMS` lists their checksums. The binaries are statically linked and need nothing else installed.
 
 Or install with Go 1.27 or later:
 
 ```sh
-go install github.com/runeQ/healthz/cmd/healthz@latest
+go install github.com/qbite-tech/healthz/cmd/healthz@latest
 ```
 
 `healthz -version` prints the installed version.

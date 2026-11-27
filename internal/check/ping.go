@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 // PingState is what a ping endpoint has received from the job it watches.

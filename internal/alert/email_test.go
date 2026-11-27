@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 func TestBuildMessagePreventsHeaderInjection(t *testing.T) {

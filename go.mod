@@ -1,4 +1,4 @@
-module github.com/runeQ/healthz
+module github.com/qbite-tech/healthz
 
 go 1.27.0
 

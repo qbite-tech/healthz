@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 type Message struct {
