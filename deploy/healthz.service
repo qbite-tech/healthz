@@ -1,6 +1,6 @@
 [Unit]
 Description=healthz website monitoring service
-Documentation=https://github.com/runeQ/healthz
+Documentation=https://github.com/qbite-tech/healthz
 Wants=network-online.target
 After=network-online.target
 

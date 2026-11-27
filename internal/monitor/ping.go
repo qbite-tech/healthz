@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/runeQ/healthz/internal/check"
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/check"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 // PingKind is the event a job reports to its ping address.

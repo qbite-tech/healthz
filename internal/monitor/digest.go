@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/runeQ/healthz/internal/alert"
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/alert"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 const digestRetryInterval = 15 * time.Minute

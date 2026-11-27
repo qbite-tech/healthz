@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 func dailyBackupEndpoint(t *testing.T) config.EndpointConfig {

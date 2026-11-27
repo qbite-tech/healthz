@@ -11,8 +11,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/runeQ/healthz/internal/config"
-	"github.com/runeQ/healthz/internal/monitor"
+	"github.com/qbite-tech/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/monitor"
 )
 
 func runTokenCommand(args []string, stdout, stderr io.Writer) int {

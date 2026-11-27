@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/runeQ/healthz/internal/check"
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/check"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 const testPingKey = "0123456789abcdef0123456789abcdef"

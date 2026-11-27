@@ -11,7 +11,7 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 // maxDetailBytes bounds the query's explanation stored in history and sent by email.

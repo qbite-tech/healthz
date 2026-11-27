@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/runeQ/healthz/internal/check"
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/check"
+	"github.com/qbite-tech/healthz/internal/config"
 	_ "modernc.org/sqlite"
 )
 

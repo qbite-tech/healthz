@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 const maxBodyBytes = 1 << 20

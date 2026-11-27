@@ -13,10 +13,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/runeQ/healthz/internal/alert"
-	"github.com/runeQ/healthz/internal/check"
-	"github.com/runeQ/healthz/internal/config"
-	"github.com/runeQ/healthz/internal/monitor"
+	"github.com/qbite-tech/healthz/internal/alert"
+	"github.com/qbite-tech/healthz/internal/check"
+	"github.com/qbite-tech/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/monitor"
 )
 
 // version is set by release builds with -ldflags "-X main.version=vX.Y.Z".

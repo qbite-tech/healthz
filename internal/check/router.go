@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/runeQ/healthz/internal/config"
+	"github.com/qbite-tech/healthz/internal/config"
 )
 
 // Router sends each endpoint to the checker for its configured type.
